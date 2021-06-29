@@ -1,3 +1,3 @@
-import { Storage } from './button';
+import { Storage } from './useStorage';
 
 export { Storage };

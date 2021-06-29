@@ -1,12 +1,12 @@
 ---
 map:
   # 映射到docs的路径
-  path: /components/button
+  path: /components/use-storage
 ---
 
-# Button
+# Storage
 
-这是一个简单的按钮。
+这是一个简单的Storage。
 
 ## 代码演示
 
@@ -21,7 +21,7 @@ map:
 ## API
 
 ```ts
-import { Button } from 'libs';
+import { Storage } from 'libs';
 ```
 
 ## Props

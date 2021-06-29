@@ -1,11 +1,11 @@
 ---
 map:
-  path: /components/button
+  path: /components/use-storage
 ---
 
-# Button
+# Storage
 
-This is a button.
+This is a Storage.
 
 ## Example
 
@@ -14,13 +14,13 @@ This is a button.
 <demo src="./demo.vue"
   language="vue"
   title="Basic useage"
-  desc="This is a button.">
+  desc="This is a Storage.">
 </demo>
 
 ## API
 
 ```ts
-import { Button } from 'libs';
+import { Storage } from 'libs';
 ```
 
 ## Props

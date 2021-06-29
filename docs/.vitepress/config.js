@@ -1,4 +1,5 @@
 const base = process.env.NODE_ENV === 'production' ? '/libs' : '';
+const { getRouterConfig } = require('./router');
 const { resolve } = require('path');
 
 module.exports = {
@@ -18,27 +19,23 @@ module.exports = {
     locales: {
       '/': {
         lang: 'zh-CN',
+        lastUpdated: '最近更新',
         title: 'libs',
         description: '工具包',
         label: '中文',
         selectText: '语言',
         nav: [{ text: '指南', link: '/' }],
-        sidebar: [
-          { text: '介绍', link: '/' },
-          { text: 'Button', link: '/components/button/' },
-        ],
+        sidebar: getRouterConfig('/'),
       },
       '/en/': {
         lang: 'en-US',
+        lastUpdated: 'Last Updated',
         title: 'libs',
         description: '工具包',
         label: 'English',
         selectText: 'Languages',
         nav: [{ text: 'Guide', link: '/' }],
-        sidebar: [
-          { text: 'Getting Started', link: '/en/' },
-          { text: 'Button', link: '/en/components/button/' },
-        ],
+        sidebar: getRouterConfig('/en/'),
       },
     },
     search: {
