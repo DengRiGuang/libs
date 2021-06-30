@@ -16,8 +16,8 @@
     "esModuleInterop": true,
     "removeComments": false,
     "declaration": true,
+    "emitDeclarationOnly": true,
     "isolatedModules": true,
-    "skipLibCheck": true,
     "declarationDir": "dist",
     "jsx": "preserve",
     "lib": ["esnext", "dom"],
@@ -28,6 +28,6 @@
       "libs": ["lib/"]
     },
   },
-  "include": ["lib"],
+  "include": ["lib/index.ts"],
   "exclude": ["node_modules", "dist"]
 }

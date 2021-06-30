@@ -1,7 +1,7 @@
-import { Storage } from '../index';
+import { useStorage } from '../index';
 
 describe('useBoolean', () => {
   it('should be defined', () => {
-    expect(Storage.useBoolean).toBeDefined();
+    expect(useStorage).toBeDefined();
   });
 });
