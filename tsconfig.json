@@ -17,6 +17,7 @@
     "removeComments": false,
     "declaration": true,
     "isolatedModules": true,
+    "skipLibCheck": true,
     "declarationDir": "dist",
     "jsx": "preserve",
     "lib": ["esnext", "dom"],
