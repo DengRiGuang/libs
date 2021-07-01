@@ -2,6 +2,7 @@ const { kebabCase } = require('lodash');
 
 const Router = {
   Storage: ['useStorage'],
+  Dark: ['useDark'],
 };
 
 function getRouterConfig(langPrefix = '/') {
@@ -13,7 +14,7 @@ function getRouterConfig(langPrefix = '/') {
     ...Object.entries(Router).map(([text, children]) => ({
       text,
       children: children.map(hookName => ({
-        link: `${langPrefix}components/${kebabCase(hookName)}/`,
+        link: `${langPrefix}components/${kebabCase(text)}/${kebabCase(hookName)}/`,
         text: hookName,
       })),
     })),

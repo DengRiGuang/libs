@@ -1,12 +1,12 @@
 ---
 map:
   # 映射到docs的路径
-  path: /components/use-storage
+  path: /components/dark/use-dark
 ---
 
-# Storage
+# Dark
 
-这是一个简单的Storage。
+这是一个简单的Dark。
 
 ## 代码演示
 
@@ -21,7 +21,7 @@ map:
 ## API
 
 ```ts
-import { Storage } from 'libs';
+import { Dark } from 'libs';
 ```
 
 ## Props

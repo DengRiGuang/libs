@@ -1,2 +1,2 @@
-export * from './useStorage';
-export * from './useDark';
+export * from './Storage';
+export * from './Dark';
