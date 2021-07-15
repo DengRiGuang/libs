@@ -1,7 +1,7 @@
 const base = process.env.NODE_ENV === 'production' ? '/libs' : '';
 const { getRouterConfig } = require('./router');
 const { resolve } = require('path');
-
+console.log(base);
 module.exports = {
   title: 'libs',
   description: '工具包',
@@ -9,7 +9,7 @@ module.exports = {
   srcIncludes: ['lib'],
   alias: {
     // 为了能在demo中正确的使用  import { X } from 'libs'
-    [`libs`]: resolve('./lib'),
+    [`libs`]: resolve('./lib/packages'),
   },
   base,
   themeConfig: {

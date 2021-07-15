@@ -1,11 +1,11 @@
 ---
 map:
-  path: /components/storage/use-storage
+  path: /components/light/use-light
 ---
 
-# Storage
+# Light
 
-This is a Storage.
+This is a Light.
 
 ## Example
 
@@ -14,13 +14,13 @@ This is a Storage.
 <demo src="./demo.vue"
   language="vue"
   title="Basic useage"
-  desc="This is a Storage.">
+  desc="This is a Dark.">
 </demo>
 
 ## API
 
 ```ts
-import { Storage } from 'libs';
+import { Light } from 'libs';
 ```
 
 ## Props

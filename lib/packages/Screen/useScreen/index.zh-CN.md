@@ -1,12 +1,12 @@
 ---
 map:
   # 映射到docs的路径
-  path: /components/storage/use-storage
+  path: /components/screen/use-screen
 ---
 
-# Storage
+# Screen
 
-这是一个简单的Storage。
+这是一个简单的Screen。
 
 ## 代码演示
 
@@ -21,7 +21,7 @@ map:
 ## API
 
 ```ts
-import { Storage } from 'libs';
+import { Screen } from 'libs';
 ```
 
 ## Props

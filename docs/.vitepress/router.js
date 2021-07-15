@@ -1,8 +1,8 @@
 const { kebabCase } = require('lodash');
 
 const Router = {
-  Storage: ['useStorage'],
-  Dark: ['useDark'],
+  Light: ['useLight'],
+  Screen: ['useScreen'],
 };
 
 function getRouterConfig(langPrefix = '/') {

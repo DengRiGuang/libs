@@ -4,12 +4,13 @@
 
 <script lang="ts">
 import { ref } from 'vue';
-import { Storage } from 'libs';
+// import  from 'libs';
 
 export default {
   setup() {
     const value = ref(0);
-    value.value = Storage.useStorage(1) + 1;
+    // console.log(Light);
+    // value.value = Light.useLight(1) + 1;
     return {
       value,
     };

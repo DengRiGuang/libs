@@ -1,12 +1,12 @@
 ---
 map:
   # 映射到docs的路径
-  path: /components/dark/use-dark
+  path: /components/light/use-light
 ---
 
-# Dark
+# Light
 
-这是一个简单的Dark。
+这是一个简单的Light。
 
 ## 代码演示
 
@@ -21,7 +21,7 @@ map:
 ## API
 
 ```ts
-import { Dark } from 'libs';
+import { Light } from 'libs';
 ```
 
 ## Props
